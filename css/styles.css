@@ -1,0 +1,164 @@
+:root{
+    --color-primery: #212121;
+    --color-secondary: #757575;
+    --color-brend: #2196f3;
+    --color-accent:#ffffff;
+    --background-primery: #f5f5f5;
+}
+
+body{
+    color: var(--color-primery);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: var(--background-primery);
+    line-height: 1.71;
+}
+
+li {
+    list-style: none;
+}
+
+/* header */
+
+.logo-type{
+    color: #000000;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.logo{
+  color: var(--color-brend);
+  text-decoration: none;
+}
+
+.link{
+    color: inherit;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.link:hover, .link:focus{
+    color: var(--color-brend);
+}
+
+/* main */
+
+.section{
+    background: #2f303a;
+}
+.section-caption{
+    color: var(--color-accent);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.buttons{
+    color: var(--color-accent);
+   background-color: var(--color-brend); 
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.title{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.subject{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.desc{
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--color-secondary);
+    letter-spacing: 0.03em;
+}
+
+/* footer */
+
+.one{
+    color: var(--color-accent);
+}
+
+.list{
+    color: var(--color-accent);
+    letter-spacing: 0.03em;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.item{
+    color: rgba(255, 255, 255, 0.6);
+}    
+
+.list:hover,
+.list:focus{
+color: var(--color-brend);
+}
+
+/* Portfolio */
+
+.list-button{
+    color: var(--color-primery);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;  
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.list-button:hover, 
+.list-button:focus{
+    color: var(--color-accent);
+    background-color: #2196f3;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.subtitle{
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--color-secondary);
+}
