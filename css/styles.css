@@ -54,8 +54,6 @@ padding: 0 15px;
 
 .site-nav .link{
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
    
 }
 
@@ -111,6 +109,9 @@ padding: 0 15px;
     color: inherit;
     font-weight: 500;
     text-decoration: none;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .site-nav .link:hover, 
